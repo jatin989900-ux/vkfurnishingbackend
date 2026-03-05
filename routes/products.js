@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-const supabase = require('../middleware/auth');
+const supabase = require('../supabase');
 const router = express.Router();
 
 const upload = multer({
